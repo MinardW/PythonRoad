@@ -1,4 +1,4 @@
-
+'''
 height1 = input('input your height:')
 weight1 = input('input your weight:')
 
@@ -18,3 +18,14 @@ elif( (BMI >= 28) and (BMI <32)):
 	print('肥胖')
 else:
 	print('严重肥胖')
+	
+'''
+
+print(list(range(1,100,2)))
+
+for x in range(1,10):
+	for y in range(1,10):
+		if(y <= x):
+			print('%d*%d=%02d ' % (x,y,x*y),end='')
+		if(x == y):
+			print('')
