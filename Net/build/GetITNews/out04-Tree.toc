@@ -1,0 +1,5 @@
+('G:\\Python\\Net\\build\\GetITNews\\idna-2.6-py3.6.egg',
+ None,
+ {'*.pyc', '*.pyd', '*.so', '*.pyo', 'EGG-INFO', '*.py'},
+ 'DATA',
+ [])

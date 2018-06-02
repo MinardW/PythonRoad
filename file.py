@@ -33,3 +33,6 @@ for p in os.listdir(os.path.dirname(sys.argv[1])):
 	#print(os.path.join(os.path.dirname(path),p),end="")
 	#print( (' Size:%d byte' % os.path.getsize(os.path.join(os.path.dirname(path),p))).center(30))
 	
+	
+	
+	
