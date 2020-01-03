@@ -19,7 +19,11 @@ class Application(Frame):
         name = self.nameInput.get() or 'world'
         tkinter.messagebox.askokcancel('Message', 'Hello, %s' % name)
 		
+
+
 app = Application()
+scale=Scale(app,from_=0, to=100,orient=HORIZONTAL)
+scale.pack()
 # 窗口标题:
 app.master.title('Hello World')
 # 主消息循环:
